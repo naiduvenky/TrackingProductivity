@@ -1,6 +1,10 @@
 # TrackingProductivity
 This web application is designed to monitor the daily productivity of users. It employs a calendar where the maximum productivity of a person is set at 6 hours a day. The application calculates and evaluates productivity against this 6-hour (360-minute) benchmark.
 # How to Download and Set Up This App on Your Machine
+## Prerequisites
+1. node.js
+2. git
+3. vs code
 ## Backend
 1. clone the repository using the command
    ```shell
@@ -8,19 +12,22 @@ This web application is designed to monitor the daily productivity of users. It 
 2. change the directory to trackingProductivity  using the command
    ```shell
    cd TrackingProductivity
-3. change the directory to the backend  using the command
+3. open the vs code using this command
+   ```shell
+    code .
+4. change the directory to the backend  using the command, choose terminal as git bash
    ```shell
     cd backend
-4. setup the database
+5. setup the database
    - download the MySQL database and note done username and password
    - using the UI tool of database create a database and note down its name
    - now configure the above details in config.json as shown below <img width="566" alt="image" src="https://github.com/naiduvenky/TrackingProductivity/assets/142713713/46391a2f-508d-4c02-b268-756ae9de8b31">
 
-5. Install the Sequelize Command Line Interface (CLI) globally on your system
+6. Install the Sequelize Command Line Interface (CLI) globally on your system
    ```shell
       npm install sequelize-cli -g
 
-6. Run the sh file in the git bash using the commend
+7. Run the sh file in the git bash using the commend
    ```shell
       sh dev.sh
 
