@@ -21,7 +21,8 @@ This web application is designed to monitor the daily productivity of users. It 
 5. setup the database
    - download the MySQL database and note done username and password
    - using the UI tool of database create a database and note down its name
-   - now configure the above details in config.json as shown below <img width="566" alt="image" src="https://github.com/naiduvenky/TrackingProductivity/assets/142713713/46391a2f-508d-4c02-b268-756ae9de8b31">
+   - now configure the above details in config.json as shown below <img width="566" alt="image" src="https://github.com/naiduvenky/TrackingProductivity/assets/142713713/ba502471-c6cc-4c23-811d-1acf943bbbbc">
+
 
 6. Install the Sequelize Command Line Interface (CLI) globally on your system
    ```shell
